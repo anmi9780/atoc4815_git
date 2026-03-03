@@ -54,7 +54,8 @@ def celsius_to_fahrenheit(temp_c):
         Temperature in Fahrenheit.
     """
     # TODO (Partner A): implement the conversion
-    pass
+    tempf = temp_c *9/5 + 32
+    return tempf
 
 
 def daily_temp_range(high_f, low_f):
